@@ -1,0 +1,124 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: outfit, sans-serif;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 13px;
+  width: 350px;
+  height: 610px;
+}
+
+/* NFT Image*/
+.blue-card .nft {
+  display: block;
+  margin: 1.3em auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+}
+
+/* Preview Card Texts*/
+.blue-card h1 {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: white;
+  font-size: 22px;
+}
+
+.blue-card h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.blue-card h1 a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.description {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 200;
+  line-height: 25px;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 92px; /*To position the expiration time to the right*/
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.expire {
+  color: hsl(215, 51%, 70%);
+  display: inline-block;
+  font-size: 18px;
+}
+
+.border {
+  border-bottom: 1px solid hsl(215, 51%, 70%);
+  display: block;
+  margin: 15px 25px;
+}
+
+.avatar {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 5px; /*connects to .author margin-left*/
+}
+
+.author {
+  display: inline-block;
+  margin-left: 5px; /*connects to .avatar margin-right*/
+  margin-right: 25px;
+
+  color: hsl(215, 51%, 70%);
+  font-weight: 549;
+}
+
+.author a {
+  color: white;
+  text-decoration: none;
+}
+
+.author a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: gray;
+  font-style: italic;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(178, 100%, 50%);
+}
